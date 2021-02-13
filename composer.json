@@ -1,0 +1,19 @@
+{
+    "name": "hpscript/my-package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "monolog/monolog": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "psy/psysh": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "hpscript\\MyPackage\\": "src/MyPackage/"
+        }
+    }
+}
